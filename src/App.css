@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dropDown {
+  background-color: #fff;
+  width: 55%;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 2px grey;
+  display: block;
+  margin-top: 5px;
+}
+
+.inputbox {
+  width: 55%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.formWrapper {
+  width: 35%;
+  height: 200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.btnclr {
+  background-color: white;
+  border: none;
+  margin-left: -40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  margin-left: 10px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.listHover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
